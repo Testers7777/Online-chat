@@ -30,3 +30,4 @@ jobs:
     - run: npm run build --if-present
     - run: npm i express@4.15.2
     - run: npm i socket.io@4.7.2
+    - run: node server.js
